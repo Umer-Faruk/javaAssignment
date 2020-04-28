@@ -1,0 +1,17 @@
+create database epass	
+
+create table epassdata(passtype varchar(30), 
+					phno varchar(10),
+					email varchar(20),
+					 name varchar(20),
+					 org varchar(30),
+					 gender varchar(7),
+					 age int(5),
+					 AID varchar(13) not null primary key,
+					 sdate varchar(12) ,
+					  edate varchar(12),
+					  purpose varchar(30),
+					  justify varchar(500));
+					  
+					
+					
